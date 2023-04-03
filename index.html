@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>うどったー</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container">
-      <h1>うどったー</h1>
-      <form>
-        <input type="text" id="tweet" placeholder="今何してる？">
-        <button type="button" onclick="postTweet()">ツイート</button>
-      </form>
-      <div id="tweets"></div>
-    </div>
-    <script src="app.js"></script>
-  </body>
+<head>
+	<title>うどったー</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>うどったー</h1>
+		<div class="posts">
+			<div class="post">
+				<h3>投稿タイトル</h3>
+				<p>投稿の本文がここに入ります。</p>
+				<button class="like-btn">いいね！</button>
+				<button class="retweet-btn">リツイート</button>
+				<button class="follow-btn">フォロー</button>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
 </html>
