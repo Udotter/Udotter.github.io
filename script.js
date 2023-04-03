@@ -19,3 +19,4 @@ followBtns.forEach(btn => {
 		alert('このユーザーをフォローしました！');
 	});
 });
+
