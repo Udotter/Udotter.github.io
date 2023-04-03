@@ -1,36 +1,31 @@
 .container {
-    width: 80%;
-    margin: 0 auto;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    margin-bottom: 1rem;
-  }
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-  }
-  
-  button[type="button"] {
-    margin-left: 1rem;
-    padding: 0.5rem;
-    font-size: 1.2rem;
-    background-color: #1DA1F2;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 4px;
-  }
-  
-  .tweet {
-    border: 1px solid #CCCCCC;
-    padding: 1rem;
-    margin-bottom: 1rem;
-  }
-  
+	max-width: 800px;
+	margin: auto;
+	padding: 20px;
+}
+
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.post {
+	flex-basis: 30%;
+	margin-bottom: 20px;
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+.like-btn, .retweet-btn, .follow-btn {
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	padding: 5px 10px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.like-btn:hover, .retweet-btn:hover, .follow-btn:hover {
+	background-color: #2980b9;
+}
