@@ -1,0 +1,36 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  button[type="button"] {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #1DA1F2;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .tweet {
+    border: 1px solid #CCCCCC;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
